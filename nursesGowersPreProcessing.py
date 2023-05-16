@@ -41,7 +41,7 @@ data_no_target.head()
 #gives us the unique number of possibilities in each category
 print(data_no_target.nunique())
 
-#TODO: COME BACK AND ADD NUMERICAL VAR BACK
+
 #I'm removing children because it is the only numerical variable we have (not necessary, but useful on first time through
 #to understand what's going on
 #data_categorical = data_no_target.drop(['children'], axis=1)
